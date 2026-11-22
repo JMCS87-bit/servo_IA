@@ -1,0 +1,24 @@
+# Archivos temporales de .NET
+**/bin/
+**/obj/
+
+# Archivos de Visual Studio
+.vs/
+*.user
+*.suo
+
+# Credenciales y configuraciones privadas
+.env
+.env.*
+!.env.example
+
+# Archivos del sistema
+Thumbs.db
+Desktop.ini
+
+# Ignorar una carpeta
+/ControlServo/
+
+
+# Configuración privada ESP32
+servo_con_ia/config.h
